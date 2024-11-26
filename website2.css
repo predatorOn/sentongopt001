@@ -1,0 +1,161 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+.navbar{
+    background: #501002 ; 
+    justify-content: space-between;
+    font-family: calibri; 
+    padding: 20px 50px 20px 100px;
+    border-bottom: 5px solid orangered;
+
+}
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo a{
+    position: absolute;
+    height: auto;
+    left: 0px;
+    width: 250px;
+}
+.img {
+    width: 250px;
+    height: 50px;
+}
+.heading2{
+    font-family: Brush Script MT;
+    color: red;
+    font-size: xxx-large;
+}
+.heading1{
+    font-family: Bahnschrift;
+    font-size: xx-large;
+    color: #fff;
+    
+}
+.button1{
+    color: #ccc;
+    background-color:red ;
+    border-radius: 25px;
+    
+
+}
+li:hover{
+    color: blue;
+}
+.navdiv:hover{
+color: blue;
+}
+ul li a:visited{
+    color: burlywood;
+}
+li{
+    list-style: none; 
+    display: inline-block;
+}
+li a{
+    color: rgb(131, 124, 124); 
+    font-size: 20px; 
+    font-weight: bold; 
+    margin-right: 30px;
+}
+button{
+    background-color: rgb(238, 27, 27); 
+    margin-left: 10px; 
+    border-radius: 10px; 
+    padding: 10px; 
+    width: 90px;
+}
+button a{
+    color: rgb(31, 29, 29); 
+    font-weight: bold; 
+    font-size: 15px;
+}
+
+body2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2c2a29 ;
+}
+.wrapper {
+    width: 470;
+    background: #2c2a29;
+    color: azure;
+    border-radius: 10px;
+    padding: 50px 60px;
+}
+.wrapper h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.input-box input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+.input-box input::placeholder {
+    color: #1d1818;
+}
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-20%);
+    font-size: 20px;
+}
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+    margin-top:50px ;
+}
+.remember-forgot a {
+    color: #f60;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover {
+    text-decoration: underline; 
+}
